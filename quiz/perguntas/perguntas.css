@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+:root{
+    --bg-color: #373737;
+    --bg2-color: #0b0f18e7;
+    --letra: #fff;
+    --botao: #762A31;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../img/f866341f-a65e-4094-ad07-48615686ce6e.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+main {
+    display: flex;
+}
+
+
+p1{
+    color: #fff;
+    font-size: 25px;
+    background-color:#762A31;
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+p {
+    color: white;
+    background-color: #0B0F18;
+    padding: 15px;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-right: 16px;
+}
+
+.container {
+    background-color: var(--bg2-color);
+    
+    padding: 40px;
+    max-width: 900px;
+    border-radius: 50px;
+}
+
+.emcima h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.alternativas form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.alternativas label {
+    width: 800px;
+    display: block;
+    padding: 12px;
+    background: #373737;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 20px;
+    box-shadow: 0px 16px 40px 0px rgba(49, 62, 81, 0.14);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.alternativas label:has(input:checked) {
+    outline: 3px solid white;
+
+    & span {
+        background: #762A31;
+        color: rgb(255, 255, 255);
+    }
+}
+
+.alternativas div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 15px;
+}
+
+.alternativas div span {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #0B0F18;
+    border-radius: 12px;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.alternativas button {
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    background: #762A31;
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    transition: background 0.3s;
+    margin-top: 15px;
+}
+
+
+.alternativas button:hover {
+    background: #538E96;
+    cursor: pointer;
+}
+
+.alternativas input {
+    display: none;
+} 
+
+
+.alternativas button {
+    font-size: 22px;
+    font-family: alyssum;
+}
+
+#correta {
+    background-color: lightgreen;
+}
+
+#errada {
+    background-color: lightcoral;
+}
+
+#errada span{
+    background-color: red;
+}
+
+#correta span{
+    background-color: green;
+}

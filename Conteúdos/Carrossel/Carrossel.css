@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color: #373737;
+    --bg2-color: #0b0f18e7;
+    --letra: #fff;
+    --botao: #762A31;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../imgconteudos/f866341f-a65e-4094-ad07-48615686ce6e.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.ancoras_padrao {
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.buscar {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 100%;
+}
+
+.divisor {
+    border: none;
+    width: 100%;
+    height: 3px;
+    background-color: var(--branco);
+    margin-top: 10px;
+}
+
+
+.carrossel-wrapper {
+    background-image: url();
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.carrossel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 20px 0;
+    width: 90vw;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
+.carrossel-container {
+    display: flex;
+    gap: 20px;
+}
+
+.carrossel-item {
+    min-width: 250px;
+    scroll-snap-align: start;
+    border-radius: 25px;
+}
+
+.carrossel-item img {
+    width: 250px;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+
