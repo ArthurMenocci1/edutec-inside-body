@@ -37,7 +37,6 @@ main {
     background-size: cover;
     background-attachment: fixed;
     background-position: top;
-
     background-repeat: no-repeat;
     height: calc(100vh - 135px)
 }
@@ -60,18 +59,20 @@ body{
 }
 
 .text-content h1 {
-    font-size: 6rem;
-    margin-bottom: 10px;
+    font-size: 7.4rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', serif;
 }
 
 .text-content h1 span {
     color: #762A31;
-    font-size: 7rem;
+    font-size: 9rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', serif;
 }
 
 .text-content p {
     font-size: 1.2rem;
     margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .image-content img {
@@ -85,31 +86,18 @@ body{
 }
 
 .info-content h2 {
-    font-size: 2rem;
+    font-size: 2.3rem;
     margin-bottom: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .info-content h2 span {
     color: #762A31;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .info-content p {
     font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 20px;
-}
-
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #762A31;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-
-.button:hover {
-    background-color: #800000;
 }
